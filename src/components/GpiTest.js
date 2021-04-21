@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import BackgroundImage from 'gatsby-background-image';
+import { getImage } from 'gatsby-plugin-image';
 import { BgImage, convertToBgImage } from 'gbimage-bridge';
 
 const GpiTest = () => {
